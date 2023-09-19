@@ -208,12 +208,6 @@ describe('Central de Atendimento ao Cliente TAT', () => {
 
       cy.contains('Talking About Testing').should('be.visible')
     });
-
-    it('simulando a execução em um viewport mobile', () => {
-        
-    });
-
-    
     
   })
 

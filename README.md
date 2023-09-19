@@ -16,7 +16,7 @@ Esse projeto se trata de uma lista de exercícios resolvidos de Cypress, conceit
 
 3. Após o clone do projeto, acesse o diretório recém clonado.
 
-4. Dentro da diretório aonde está o projeto execute o comando <npm install>
+4. Dentro da diretório aonde está o projeto execute o comando npm install
 
 ## Instalação do Cypress.
 
