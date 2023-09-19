@@ -1,29 +1,26 @@
-# Testes automatizados com Cypress - Básico
+# Aprendizado de Cypress
 
-👋 Seja bem-vindo(a)!
+Esse projeto se trata de uma lista de exercícios resolvidos de Cypress, conceitos básicos, mas que são essenciais.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Pré-Requisitos
 
-## O que você vai aprender
+- npm (v18.0.0).
+- Git
+- Visual Studio Code
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+## Clone do repositório na máquina
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+1. No seu fork do projeto, clique no botão Code, escolha uma opção de clone (HTTPS ou SSH) e copie o link de clone do projeto
 
-## Vamos começar?
+2. Em seu terminal de linha de comando (em uma pasta onde você armazene seus projetos de software), execute o comando git clone [cole-o-link-copiado-aqui]
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+3. Após o clone do projeto, acesse o diretório recém clonado.
+
+## Instalação do Cypress.
+
+1. Na pasta do projeto, abra o terminal git e execute o comando <npm install cypress@9.5.1 --save-dev>
+
+2. Após ter baixado e instalado o cypress, execute o comando <npx cypress open> para abrir o Cypress com interação.
 
 ___
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
