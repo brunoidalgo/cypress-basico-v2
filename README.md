@@ -4,7 +4,7 @@ Esse projeto se trata de uma lista de exercícios resolvidos de Cypress, conceit
 
 ## Pré-Requisitos
 
-- npm (v18.0.0).
+- Npm (v18.0.0).
 - Git
 - Visual Studio Code
 
