@@ -308,7 +308,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
       })
     });
 
-    it.only('Desafio: encontrando o gato', () => {
+    it('Desafio: encontrando o gato', () => {
       cy.get('#cat')
       .invoke('show')
       .should('be.visible')
@@ -316,6 +316,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
       .invoke('text', 'CAT TAT')
       cy.get('#subtitle')
       .invoke('text', 'Eu amo gatos')
+      .should('have.value','Eu amo gatos')
     });
   })
 
