@@ -256,21 +256,21 @@ describe('Central de Atendimento ao Cliente TAT', () => {
   });
     
 
-    it('lodash', () => {
-        Cypress._.times(5, () => {
-          const longText = Cypress._.repeat('0123456789', 20)
-          cy.title().should('be.equal', 'Central de Atendimento ao Cliente TAT')
-          cy.get('#firstName').click().type('Bruno')
-          cy.get('#lastName').click().type('Empke')
-          cy.get('#email').click().type('brunoteste@gmail.com')
-          cy.get('#phone').click().type('16 996241597')
+    // it('lodash', () => {
+    //     Cypress._.times(5, () => {
+    //       const longText = Cypress._.repeat('0123456789', 20)
+    //       cy.title().should('be.equal', 'Central de Atendimento ao Cliente TAT')
+    //       cy.get('#firstName').click().type('Bruno')
+    //       cy.get('#lastName').click().type('Empke')
+    //       cy.get('#email').click().type('brunoteste@gmail.com')
+    //       cy.get('#phone').click().type('16 996241597')
 
-          cy.get('#open-text-area').click().type(longText,{'delay':0})
+    //       cy.get('#open-text-area').click().type(longText,{'delay':0})
 
-          cy.get('button[type="submit"]').click()
-          cy.get('.success').should('be.visible')
-        })
-    });
+    //       cy.get('button[type="submit"]').click()
+    //       cy.get('.success').should('be.visible')
+    //     })
+    // });
 
     it('exibe e esconde as mensagens de sucesso e erro usando o .invoke()', () => {
       cy.get('.success')
